@@ -1,0 +1,21 @@
+{
+    "description":"lying Problem",
+    "actions": ["lying", "refraining"],
+    "background": [],
+    "consequences": ["the old person believes in something wrong", "the old person feels enthusiasm about exercising and eating healthy food",
+                    "the old person starts exercising daily and regularly", "the old person has a healthy body"],
+    "mechanisms": {
+                    "the old person believes in something wrong": "lying",
+                    "the old person feels enthusiasm about exercising and eating healthy food": "the old person believes in something wrong",
+                    "the old person starts exercising daily and regularly": "the old person feels enthusiasm about exercising and eating healthy food",
+                    "the old person has a healthy body": "the old person starts exercising daily and regularly"
+                  },
+    "utilities": {
+	    "the old person believes in something wrong": -6,
+        "the old person has a healthy body": 7,
+        "Not('having a healthy body')": -7
+    },
+    "intentions": {
+        "lying": ["lying", "the old person has a healthy body"]
+                  }
+}

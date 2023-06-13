@@ -1,0 +1,12 @@
+{
+    "problem_description": "This is the solution of the tram problem in relativism",
+    "initialState": {
+        "one person dies": "False",
+        "five people die": "False"
+    },
+    "solution": "In relativism and based on its principles the maximum utility is for pulling, with -8, which causes to \"one person dies\" consequence.",
+    "goal": "one person dies",
+    "intentions": {
+        "one person dies": "pulling"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "description":"tram Problem",
+    "actions": ["throwing the biggest one in the water", "refraining"],
+    "background": [],
+    "consequences": ["the boat sinks, but no one dies.", "the biggest person dies", "three people die"],
+    "mechanisms": {
+                    "the boat sinks, but no one dies": "Not('throwing the biggest one in the water')",
+                    "the biggest person dies": "the boat sinks OR throwing the biggest one in the water",
+                    "three people die": "Not('throwing the biggest one in the water')",
+                    "Not('three people die')": "throwing the biggest one in the water"
+                  },
+    "utilities": {
+	    "the biggest person dies": -8,
+        "three people die": -44,
+        "Not('three people die')": 44
+    },
+    "intentions": {
+        "throwing the biggest one in the water": ["throwing the biggest one in the water", "Not('three people die')"]
+                  }
+}

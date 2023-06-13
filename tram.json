@@ -1,0 +1,17 @@
+{
+    "description":"tram Problem",
+    "actions": ["pulling", "refraining"],
+    "background": [],
+    "consequences": ["one person dies", "five people die"],
+    "mechanisms": {
+                    "one person dies": "pulling",
+                    "five person die": "Not('pulling')"
+                  },
+    "utilities": {
+	    "five people die": -65,
+        "one person dies": -8
+    },
+    "intentions": {
+        "pulling": ["pulling", "one person dies"]
+                  }
+}

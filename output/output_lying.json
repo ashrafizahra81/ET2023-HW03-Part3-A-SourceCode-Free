@@ -1,0 +1,14 @@
+{
+    "problem_description": "This is the solution of the lying problem in relativism",
+    "initialState": {
+        "the old person believes in something wrong": "False",
+        "the old person feels enthusiasm about exercising and eating healthy food": "False",
+        "the old person starts exercising daily and regularly": "False",
+        "the old person has a healthy body": "False"
+    },
+    "solution": "In relativism and based on its principles the maximum utility is for lying, with 7, which causes to \"the old person has a healthy body\" consequence.",
+    "goal": "the old person has a healthy body",
+    "intentions": {
+        "the old person has a healthy body": "lying"
+    }
+}

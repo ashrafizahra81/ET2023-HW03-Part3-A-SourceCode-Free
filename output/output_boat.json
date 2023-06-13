@@ -1,0 +1,13 @@
+{
+    "problem_description": "This is the solution of the boat problem in relativism",
+    "initialState": {
+        "the boat sinks, but no one dies.": "False",
+        "the biggest person dies": "False",
+        "three people die": "False"
+    },
+    "solution": "In relativism and based on its principles the maximum utility is for throwing the biggest one in the water, with 44, which causes to \"Not('three people die')\" consequence.",
+    "goal": "Not('three people die')",
+    "intentions": {
+        "Not('three people die')": "throwing the biggest one in the water"
+    }
+}
